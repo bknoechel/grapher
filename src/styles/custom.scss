@@ -1,0 +1,23 @@
+@import "~bootstrap/scss/bootstrap";
+
+html, body, #root {
+  height: 100%;
+}
+
+.header {
+  max-width: 1400px;
+}
+
+.main {
+  padding-top: 48px;
+  max-width: 1400px;
+}
+
+.grapher {
+  height: 400px;
+  flex-shrink: 0;
+}
+
+.tableWrapper {
+  overflow: auto;
+}

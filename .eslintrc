@@ -1,0 +1,24 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "no-plusplus": 0,
+    "object-curly-newline": 0,
+    "max-len": ["error", { "code": 120 }],
+    "react/prop-types": 0,
+    "no-console": 1,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "navigator": true,
+    "describe": true,
+    "expect": true,
+    "jest": true,
+    "beforeEach": true,
+    "test": true,
+    "Number": true
+  }
+}

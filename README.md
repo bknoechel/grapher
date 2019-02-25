@@ -5,7 +5,7 @@ Grapher is an open source web app to display simple datasets with a graph. The o
 
 ## What technologies are used in Grapher?
 - [React](https://reactjs.org)
-- [Webpack](https://webpack.org)
+- [Webpack](https://webpack.js.org)
 - [Bootstrap](https://getbootstrap.com)
 - [Jest](https://jestjs.io)
 

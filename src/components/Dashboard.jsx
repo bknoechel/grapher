@@ -121,22 +121,24 @@ class Dashboard extends React.Component {
                 openAbout={this.openAbout}
               />
             </div>
-            <div className="col-9 bg-white">
+            <div className="col-9 bg-white h-100">
               <MainPanel data={data} />
             </div>
           </div>
         </div>
-        {modalType && (
-          <>
-            <Modal
-              title={modalTitle}
-              dismiss={this.dismissModal}
-              isError={!!importError}
-            >
-              {this.getModalBody()}
-            </Modal>
-            <div className="modal-backdrop fade show" />
-          </>)
+        {modalType
+          && (
+            <>
+              <Modal
+                title={modalTitle}
+                dismiss={this.dismissModal}
+                isError={!!importError}
+              >
+                {this.getModalBody()}
+              </Modal>
+              <div className="modal-backdrop fade show" />
+            </>
+          )
         }
       </div>
     );
